@@ -1,0 +1,181 @@
+    .effect1 {
+        text-align: center;
+        background-color: lightseagreen;
+        margin-top: 25px;
+    }
+    
+    a {
+        text-decoration: none;
+        background-color: transparent;
+    }
+    
+    .icon1 {
+        height: 90px;
+        width: 90px;
+        border: 1px solid white;
+        border-radius: 50%;
+        display: inline-block;
+        text-align: center;
+        margin: 50px;
+        font-size: 54px;
+        color: white;
+    }
+    
+    .icon1:hover {
+        background-color: lightslategrey;
+        color: navy;
+    }
+    
+    .effect2 {
+        text-align: center;
+        background-color: peru;
+        margin-top: 25px;
+        height: 200px;
+    }
+    
+    .icon2 {
+        display: inline-block;
+        width: 90px;
+        height: 90px;
+        background: #f1f1f1;
+        border-radius: 30%;
+        box-shadow: 0 5px 15px -5px #00000070;
+        color: #3498db;
+        overflow: hidden;
+        position: relative;
+        margin: 50px;
+    }
+    
+    .icon2::before {
+        content: '';
+        position: absolute;
+        width: 120%;
+        height: 120%;
+        background: #a1ceec;
+        left: -110%;
+        top: 90%;
+        transition: 0.2s linear;
+    }
+    
+    .icon2:hover::before {
+        animation: aaa 0.7s 1;
+        top: -10%;
+        left: -10%;
+        transform: rotate(69deg);
+    }
+    
+    .icon2 i {
+        line-height: 90px;
+        font-size: 45px;
+        transition: 0.2s linear;
+    }
+    
+    .icon2:hover i {
+        transform: scale(1.3);
+        color: #f09696;
+    }
+    
+    .effect3 {
+        text-align: center;
+        background-color: lightgreen;
+        margin-top: 25px;
+    }
+    
+    .icon3 {
+        height: 90px;
+        width: 90px;
+        border: 2px solid white;
+        border-radius: 50%;
+        display: inline-block;
+        text-align: center;
+        margin: 50px;
+        font-size: 54px;
+        color: white;
+        transition: 0.2s linear;
+    }
+    
+    .icon3:hover {
+        box-shadow: 0 0 18px 6px navy;
+        color: navy;
+        background-color: white;
+    }
+    
+    .effect4 {
+        text-align: center;
+        background-color: lightslategray;
+        margin-top: 25px;
+    }
+    
+    .effect4 {
+        text-align: center;
+        background-color: lightslategray;
+        margin-top: 25px;
+    }
+    
+    .effect4 a {
+        display: inline-flex;
+        width: 100px;
+        height: 100px;
+        background: #2c3e50;
+        color: white;
+        margin: 50px;
+        border-radius: 50%;
+        justify-content: center;
+        align-items: center;
+        transition: 0.4s;
+        text-decoration: none;
+        font-size: 40px;
+    }
+    
+    .effect4 a i {
+        transition: 0.4s all;
+    }
+    
+    .effect4 a:hover {
+        background-color: lightskyblue;
+    }
+    
+    .effect4 a:hover i {
+        color: maroon;
+        transform: scale(1.6) rotate(25deg);
+    }
+    
+    .effect5 {
+        text-align: center;
+        background-color: rgb(128, 164, 199);
+        margin-top: 25px;
+        display: flex;
+        padding-left: 100px;
+    }
+    
+    .effect5 a {
+        display: flex;
+        background-color: #e3edf7;
+        width: 70px;
+        height: 70px;
+        margin: 70px;
+        border-radius: 10px;
+        align-items: center;
+        justify-content: center;
+        text-decoration: none;
+        border: 1px solid rgba(0, 0, 0, 0);
+        transition: transform 0.5s;
+    }
+    
+    .effect5 a:hover {
+        box-shadow: inset 4px 4px 6px -1px rgba(0, 0, 0, 0.2), inset -4px -4px 6px -1px rgba(255, 255, 255, 0.7), -0.5px -0.5px 0px rgba(255, 255, 255, 1), 0.5px 0.5px 0px rgba(0, 0, 0, 0.15), 0px 12px 10px -10px rgba(0, 0, 0, 0.5);
+        border: 1px solid rgba(0, 0, 0, 0.1);
+        transform: translateY(2px);
+    }
+    
+    .effect5 a i {
+        font-size: 35px;
+        color: #777;
+        transition: transform 0.5s;
+    }
+    
+    .effect5 a:hover i {
+        color: darkred;
+        transform: scale(1.3);
+        font-weight: bolder;
+    }
